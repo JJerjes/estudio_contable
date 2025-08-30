@@ -1,0 +1,25 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archivos de entorno
+.env
+
+# Node modules (si usas Node.js después)
+node_modules/
+
+# Carpetas de producción/build (si generas alguna)
+dist/
+build/
+
+# Archivos temporales de editores
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Cachés
+.cache/
