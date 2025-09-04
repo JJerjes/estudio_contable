@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "imageSrc": "/img/cesar-teran-I.jpg",
+        "imageSrc": "img/cesar-teran-I.jpg",
         "imageAlt": "Foto del abogado cesar",
         "name": "Cesar Teran",
         "position": "Gerente General en Pacific Corporate Sustainability Latam",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "imageSrc": "/img/framcisco-garibaldi-II.jpg",
+        "imageSrc": "img/framcisco-garibaldi-II.jpg",
         "imageAlt": "Foto del abogado Francisco",
         "name": "Frnacisco Garabaldi",
         "position": "Gerente de Comercializacion en Bigbox Perú",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "imageSrc": "/img/tito-solano-III.jpg",
+        "imageSrc": "img/tito-solano-III.jpg",
         "imageAlt": "Foto del abogado tito",
         "name": "Tito Solano",
         "position": "Gerente de Proyecto en Marticonsa",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "imageSrc": "/img/eugenio-larosa-IV.png",
+        "imageSrc": "img/eugenio-larosa-IV.png",
         "imageAlt": "Foto del abogado eugenio",
         "name": "Eugenio La Rosa",
         "position": "Director en Diloo",
