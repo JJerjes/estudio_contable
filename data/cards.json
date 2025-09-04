@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "imageSrc": "/img/cesar-teran-I.jpg",
+        "imageAlt": "Foto del abogado cesar",
+        "name": "Cesar Teran",
+        "position": "Gerente General en Pacific Corporate Sustainability Latam",
+        "videoUrl": "https://www.youtube.com/embed/JYTk7iBxlNE?si=lZlI5VF-P213i3gN"
+    },
+    {
+        "id": 2,
+        "imageSrc": "/img/framcisco-garibaldi-II.jpg",
+        "imageAlt": "Foto del abogado Francisco",
+        "name": "Frnacisco Garabaldi",
+        "position": "Gerente de Comercializacion en Bigbox Perú",
+        "videoUrl": "https://www.youtube.com/embed/L8d5BmJTyiM?si=NHdzsu_d9IjiYNv1"
+    },
+    {
+        "id": 3,
+        "imageSrc": "/img/tito-solano-III.jpg",
+        "imageAlt": "Foto del abogado tito",
+        "name": "Tito Solano",
+        "position": "Gerente de Proyecto en Marticonsa",
+        "videoUrl": "https://www.youtube.com/embed/BJ8fYKzq3Bo?si=c6veI81TyyQ_p-L-"
+    },
+    {
+        "id": 4,
+        "imageSrc": "/img/eugenio-larosa-IV.png",
+        "imageAlt": "Foto del abogado eugenio",
+        "name": "Eugenio La Rosa",
+        "position": "Director en Diloo",
+        "videoUrl": "https://www.youtube.com/embed/AtvmC97K8O4?si=ueXyfZ6ttVhjnXw9"
+    }
+]
