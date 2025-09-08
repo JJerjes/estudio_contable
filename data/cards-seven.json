@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "sectionClass": "art0 art-seven",
+        "img": "img/servicio-seven-1.png",
+        "imgAlt": "Foto de acesoria contable.",
+        "h3": "Asesoria y Outsourcing Contable",
+        "description": "Brindamos asesoría y outsourcing administrativo integral. Nos encargamos de su gestión contable, tributaria, laboral y administrativa."
+    },
+    {
+        "id": 2,
+        "sectionClass": "art1 art-seven",
+        "img": "img/servicio2-seven.png",
+        "imgAlt": "Foto de constitucion de empresa.",
+        "h3": "Constitucion De Empresas",
+        "description": "¿Quieres crear una empresa en Perú? ¡Nosotros lo hacemos por ti! Desde su gestión inicial hasta el funcionamiento de la nueva sociedad. Brindamos servicios de representación legal y fiscal"
+    },
+    {
+        "id": 3,
+        "sectionClass": "art2 art-seven",
+        "img": "img/servicio3-seven.png",
+        "imgAlt": "Foto de asesoria financiera y auditoria.",
+        "h3": "Asesoria Financiera y Auditoria",
+        "description": "Nuestro estudio contable cuenta con profesionales de amplia experiencia en servicios financieros, precios de transferencia, adopción e implementación de NIIF (IFRS) y auditorías financieras, operativas y tributarias."
+    },
+    {
+        "id": 4,
+        "sectionClass": "art3 art-seven",
+        "img": "img/servicio6-seven.png",
+        "imgAlt": "Foto de outsourcing de inventarios fisicos.",
+        "h3": "Outsourcing De Inventarios Físicos",
+        "description": "Te ayudamos a organizar y mantener el control administrativo y operativo de tú logística, almacén y activo fijo."
+    }
+]
