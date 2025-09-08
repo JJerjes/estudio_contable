@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "sectionClass": "two-row one",
+        "number": 1,
+        "paragraph": "Responsabilidad, compromiso y resultados."
+    },
+    {
+        "id": 2,
+        "sectionClass": "two-row two",
+        "number": 2,
+        "paragraph": "Entrega mensual de estados financieros<br>100% analiazdos."
+    },
+    {
+        "id": 3,
+        "sectionClass": "two-row three",
+        "number": 3,
+        "paragraph": "Cumplimiento estricto y puntual de<br>declaraciones fiscales."
+    },
+    {
+        "id": 4,
+        "sectionClass": "two-row four",
+        "number": 4,
+        "paragraph": "Somos tu socio estratégico que busca<br>aportar valor agregado a tu gestión<br>administrativa."
+    },
+    {
+        "id": 5,
+        "sectionClass": "two-row five",
+        "number": 5,
+        "paragraph": "Somos una empresa veraz, transparente,<br>confiable y empática con las necesidades<br>de cada cliente."
+    },
+    {
+        "id": 6,
+        "sectionClass": "two-row six",
+        "number": 6,
+        "paragraph": "Cumplimos siempre nuestra labor con<br>eficiencia dentro de los plazos<br>acordados."
+    }
+]
