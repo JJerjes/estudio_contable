@@ -522,6 +522,7 @@ button {
     background-color: rgba(214, 213, 213, 0.165);
     transition: background-color 1s ease;
     color: black;
+    box-shadow: 3px 9px 8px rgba(0, 0, 0, 0.2);
 }
 
 .card-seven:hover {
