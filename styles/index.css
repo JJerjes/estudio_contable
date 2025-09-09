@@ -631,6 +631,118 @@ button {
     line-height: 1.4;
 }
 
+/*SECTION-NINE*/
+.section-nine {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px 15px;
+    border: 1px solid red;
+    background-color: rgb(7, 7, 85);
+    /*Esto es para identificar la zona de trabajo*/
+    gap: 1.5rem;
+}
+
+.nine-one-column {
+    margin: 50px 0 20px 0;
+}
+
+.nine-one-column img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.nine-two-column {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.nine-two-column h2 {
+    color: navy;
+    text-align: start;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px 0 20px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: none;
+}
+
+.wf1 {
+    padding: 0 15px;
+}
+
+.wf1,
+.wf1 * {
+    box-sizing: border-box;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: .9rem;
+    border-radius: 6px;
+    appearance: none;
+    margin-bottom: 1rem;
+}
+
+.wf1 fieldset {
+    margin: 2rem 0;
+    border: none;
+}
+
+.wf1 legend {
+    font-size: 1.2rem;
+    padding: .1rem 0 .7rem 0;
+}
+
+.wf1 input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.wf1 .checkbox-column div label {
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.wf1 input:required {
+    border-right: 6px solid red;
+}
+
+.wf1 input:required:valid {
+    border-right: 6px solid green;
+}
+
+.wf1 .button {
+    border: none;
+    background-color: rgb(10, 10, 176);
+    color: #fff;
+    border-radius: 6px;
+    padding: 1rem;
+    width: 97%;
+    max-width: 600px;
+    margin: -1rem 2% 2rem 2%;
+    cursor: pointer;
+}
+
+.wf1 .button:hover {
+    background-color: brown;
+}
+
+
 /*MEDIA QUERY*/
 @media (min-width: 375px) {
     img {
@@ -760,6 +872,23 @@ button {
 
     .eight-two-row {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /*SECTION-NINE*/
+    .checkbox-group-container {
+        display: flex;
+        padding: 0px 4;
+    }
+
+    .checkbox-column {
+        margin: 0 40px 0 0;
+    }
+
+    form input[type="text"],
+    form input[type="tel"],
+    form input[type="email"],
+    textarea {
+        max-width: 100%;
     }
 }
 
@@ -1028,8 +1157,14 @@ button {
         grid-template-columns: repeat(4, auto);
     }
 
-}
+    /*SECTION-NINE*/
+    .section-nine {
+        padding: 50px;
+        grid-template-columns: 1fr 1fr;
 
+    }
+
+}
 
 @media (min-width: 1440px) {}
 
