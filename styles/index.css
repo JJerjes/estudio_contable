@@ -635,8 +635,7 @@ button {
 .section-nine {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 10px 15px;
-    border: 1px solid red;
+    padding: 10px 15px 55px 15px;
     background-color: rgb(7, 7, 85);
     /*Esto es para identificar la zona de trabajo*/
     gap: 1.5rem;
@@ -741,6 +740,132 @@ textarea {
 .wf1 .button:hover {
     background-color: brown;
 }
+
+/*SECTION-TEN*/
+footer {
+    grid-area: footer;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(18 15 22);
+    color: white;
+}
+
+.row-ten-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    max-width: 600px;
+    width: 100%;
+}
+
+.row-ten-one img {
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.row-ten-one p {
+    font-size: smaller;
+    line-height: 1.6;
+}
+
+.footer-links-zero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links-zero ul {
+    list-style: none;
+}
+
+.footer-links-zero h3 {
+    font-size: smaller;
+    margin: 10px 0;
+}
+
+.footer-links-zero a {
+    text-decoration: none;
+    color: white;
+    line-height: 1.4;
+}
+
+.footer-links-zero a:hover {
+    color: rgb(24, 154, 190);
+}
+
+.footer-links-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links-one ul {
+    list-style: none;
+}
+
+.footer-links-one h3 {
+    font-size: smaller;
+    margin: 20px 0;
+}
+
+.footer-links-one a {
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+}
+
+.footer-links-one a:hover {
+    color: rgb(24, 154, 190);
+}
+
+.footer-links-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links-two h3 {
+    font-size: smaller;
+    margin: 20px 0;
+}
+
+.footer-links-two a {
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links-two i {
+    margin-right: 5px;
+}
+
+.footer-links-two a:hover {
+    color: rgb(24, 154, 190);
+}
+
+.row-ten-two {
+    border-top: 1px solid white;
+    margin-top: 30px;
+}
+
+.footer-copyright {
+    padding-top: 20px;
+}
+
 
 
 /*MEDIA QUERY*/
@@ -1164,14 +1289,54 @@ textarea {
 
     }
 
-}
+    /*SECTION-TEN*/
+    @media screen and (min-width: 1024px) {
+        footer {
+            padding: 4rem 2rem;
+        }
 
-@media (min-width: 1440px) {}
+        .row-ten-one {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-content: center;
+            max-width: 1300px;
+            width: 100%;
+            text-align: left;
+            margin: 0 auto;
+            align-items: start;
+        }
 
-@media (min-width: 2560px) {}
+        .row-ten-one>div {
+            align-items: flex-start;
+        }
 
-html,
-body {
-    max-width: 100%;
-    overflow-x: hidden;
+        .footer-links-zero,
+        .footer-links-one,
+        .footer-links-two {
+            align-items: flex-start;
+        }
+
+        .footer-links-zero ul,
+        .footer-links-one ul {
+            padding-left: 0;
+        }
+
+        .row-ten-two {
+            width: 100%;
+            margin: 3rem auto 0 auto;
+            padding-top: 1rem;
+            border-top: 1px solid white;
+            text-align: center;
+        }
+    }
+
+    @media (min-width: 1440px) {}
+
+    @media (min-width: 2560px) {}
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 }
